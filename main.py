@@ -55,9 +55,9 @@ dabble__data=[2,2,3,3,"china","thailand","china"]
 print(dabble__data[5])
 """
 
-complex_data=2.2+4j
+"""complex_data=2.2+4j
 
-print(complex_data)
+print(complex_data)"""
 
 
 """players=("naymar","messi","ronaldo",'martinij')
@@ -106,3 +106,41 @@ print(check)
     'name':'Arif'
 }
 print(student)"""
+
+# IMMUTABLE TYPES DATA
+# 1- integer
+# 2- floating point numbers
+# 3- strings
+# 4- tuples
+# 5- frozen sets
+
+# ----string---
+"""national_fish="cat-fish"
+location_check1=id(national_fish)
+
+national_fish="Hilsha"
+location_check2=id(national_fish)
+
+print(national_fish)
+print(location_check1)
+print(location_check2)"""
+
+# --- tuples----
+"""fruits_name= ("mango", "litchi", "papaya", "cherry")
+tuples1_location=id(fruits_name)
+
+fruits_name=("banana","pine-apple","apple","grap")
+tuples2_location=id(fruits_name)
+
+print(tuples1_location)
+print(tuples2_location)"""
+
+# ---frozenSet---
+"""human_names=frozenset({"alex","jemmy","richard","rose"})
+frozenSet_location=id(human_names)
+human_names=frozenset({"alex","jemmy","richard","rose"})
+frozenSet2_location=id(human_names)
+print(frozenSet_location)
+print(frozenSet2_location)"""
+
+# MUTABLE TYPES DATA

@@ -178,3 +178,16 @@ str2=id(str)
 print(str1)
 print(str2)
 """
+
+"""x=56
+y=str(x)
+z=float(x)
+check=type(z)
+# print(check)
+
+try:
+    animal = "Lion"
+    convert_float = float(animal)
+    print(convert_float)
+except Exception as e:
+    print(e)"""

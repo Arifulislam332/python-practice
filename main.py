@@ -144,3 +144,37 @@ print(frozenSet_location)
 print(frozenSet2_location)"""
 
 # MUTABLE TYPES DATA
+# 1- list
+# 2- dictionaries
+# 3- sets
+
+# ----lists----
+"""numbers=[1,23,43,54]
+first_numbers=id(numbers)
+numbers[3]="litchi"
+second_numbers=id(numbers)
+print(first_numbers)
+print(second_numbers)"""
+
+# ----dictionaries----
+"""tiger={
+    'name':'Tiger',
+    'live':'forest',
+    'isDangerous':True
+}
+tiger1_location=id(tiger)
+tiger['isDangerous']=False
+tiger['live']="home"
+print(tiger)
+tiger2_location=id(tiger)
+print(tiger1_location)
+print(tiger2_location)"""
+
+# ----sets---
+"""str= {"a", "b", "c","a","c"}
+str1=id(str)
+str.add(23)
+str2=id(str)
+print(str1)
+print(str2)
+"""

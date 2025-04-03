@@ -191,3 +191,16 @@ try:
     print(convert_float)
 except Exception as e:
     print(e)"""
+
+name=input("Enter Your Name: ")
+age =input("Enter Your Birth Year: ")
+
+convert_age=int(age)
+
+present_year=2025
+total_age= present_year - convert_age
+
+# print("Your name is "+ name +"!")
+# print("Your age is "+ str(total_age) +"!")
+print("Your name is : ",name)
+print("Your age is : ",total_age)
